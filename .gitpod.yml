@@ -5,4 +5,6 @@ tasks:
   command: |
     docker pull ghcr.io/bgacademy23/test
     clear
+    echo
     docker run --rm ghcr.io/bgacademy23/test
+    echo
