@@ -1,4 +1,5 @@
 image: gitpod/workspace-base
 
-name: run
-- command: docker run --rm ghcr.io/bgacademy23/test
+tasks:
+- name: run
+  command: docker run --rm ghcr.io/bgacademy23/test
